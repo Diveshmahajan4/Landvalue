@@ -98,7 +98,7 @@ export default function PropertyList() {
         },
     ]
     return (
-        <section className="mb-8 mt-60 mx-20 md:mx-30 lg:mx-40">
+        <section className="mb-8 mt-60 container mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {properties.map((property) => (
                     <div
